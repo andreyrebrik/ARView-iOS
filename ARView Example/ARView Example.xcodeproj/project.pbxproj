@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37B4A9861C6BC22800E0BBF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B4A9851C6BC22800E0BBF9 /* main.m */; };
+		37B4A9891C6BC22800E0BBF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B4A9881C6BC22800E0BBF9 /* AppDelegate.m */; };
+		37B4A98C1C6BC22800E0BBF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B4A98B1C6BC22800E0BBF9 /* ViewController.m */; };
+		37B4A98F1C6BC22800E0BBF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B4A98D1C6BC22800E0BBF9 /* Main.storyboard */; };
+		37B4A9911C6BC22800E0BBF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B4A9901C6BC22800E0BBF9 /* Assets.xcassets */; };
+		37B4A9941C6BC22800E0BBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B4A9921C6BC22800E0BBF9 /* LaunchScreen.storyboard */; };
+		37CEB8C11C7073E300EE9267 /* ARView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CEB8C01C7073E200EE9267 /* ARView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37B4A9BB1C6BCD1D00E0BBF9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37B4A9811C6BC22800E0BBF9 /* ARView Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARView Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B4A9851C6BC22800E0BBF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37B4A9871C6BC22800E0BBF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37B4A9881C6BC22800E0BBF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37B4A98A1C6BC22800E0BBF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37B4A98B1C6BC22800E0BBF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37B4A98E1C6BC22800E0BBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37B4A9901C6BC22800E0BBF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37B4A9931C6BC22800E0BBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37B4A9951C6BC22800E0BBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CEB8BE1C706C3F00EE9267 /* ARView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARView.framework; path = "../ARView/build/Debug-iphoneos/ARView.framework"; sourceTree = "<group>"; };
+		37CEB8C01C7073E200EE9267 /* ARView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARView.framework; path = "../build/Debug-iphoneos/ARView.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37B4A97E1C6BC22800E0BBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CEB8C11C7073E300EE9267 /* ARView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37B4A9781C6BC22800E0BBF9 = {
+			isa = PBXGroup;
+			children = (
+				37B4A9831C6BC22800E0BBF9 /* ARView Example */,
+				37B4A9A91C6BCC2500E0BBF9 /* Frameworks */,
+				37B4A9821C6BC22800E0BBF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37B4A9821C6BC22800E0BBF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B4A9811C6BC22800E0BBF9 /* ARView Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37B4A9831C6BC22800E0BBF9 /* ARView Example */ = {
+			isa = PBXGroup;
+			children = (
+				37B4A9871C6BC22800E0BBF9 /* AppDelegate.h */,
+				37B4A9881C6BC22800E0BBF9 /* AppDelegate.m */,
+				37B4A98A1C6BC22800E0BBF9 /* ViewController.h */,
+				37B4A98B1C6BC22800E0BBF9 /* ViewController.m */,
+				37B4A98D1C6BC22800E0BBF9 /* Main.storyboard */,
+				37B4A9901C6BC22800E0BBF9 /* Assets.xcassets */,
+				37B4A9921C6BC22800E0BBF9 /* LaunchScreen.storyboard */,
+				37B4A9951C6BC22800E0BBF9 /* Info.plist */,
+				37B4A9841C6BC22800E0BBF9 /* Supporting Files */,
+			);
+			path = "ARView Example";
+			sourceTree = "<group>";
+		};
+		37B4A9841C6BC22800E0BBF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37B4A9851C6BC22800E0BBF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B4A9A91C6BCC2500E0BBF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37CEB8C01C7073E200EE9267 /* ARView.framework */,
+				37CEB8BE1C706C3F00EE9267 /* ARView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37B4A9801C6BC22800E0BBF9 /* ARView Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B4A9981C6BC22800E0BBF9 /* Build configuration list for PBXNativeTarget "ARView Example" */;
+			buildPhases = (
+				37B4A97D1C6BC22800E0BBF9 /* Sources */,
+				37B4A97E1C6BC22800E0BBF9 /* Frameworks */,
+				37B4A97F1C6BC22800E0BBF9 /* Resources */,
+				37B4A9BB1C6BCD1D00E0BBF9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARView Example";
+			productName = "ARView Example";
+			productReference = 37B4A9811C6BC22800E0BBF9 /* ARView Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37B4A9791C6BC22800E0BBF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrey Rebrik";
+				TargetAttributes = {
+					37B4A9801C6BC22800E0BBF9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 37B4A97C1C6BC22800E0BBF9 /* Build configuration list for PBXProject "ARView Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37B4A9781C6BC22800E0BBF9;
+			productRefGroup = 37B4A9821C6BC22800E0BBF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37B4A9801C6BC22800E0BBF9 /* ARView Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37B4A97F1C6BC22800E0BBF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B4A9941C6BC22800E0BBF9 /* LaunchScreen.storyboard in Resources */,
+				37B4A9911C6BC22800E0BBF9 /* Assets.xcassets in Resources */,
+				37B4A98F1C6BC22800E0BBF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37B4A97D1C6BC22800E0BBF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B4A98C1C6BC22800E0BBF9 /* ViewController.m in Sources */,
+				37B4A9891C6BC22800E0BBF9 /* AppDelegate.m in Sources */,
+				37B4A9861C6BC22800E0BBF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37B4A98D1C6BC22800E0BBF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B4A98E1C6BC22800E0BBF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37B4A9921C6BC22800E0BBF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B4A9931C6BC22800E0BBF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37B4A9961C6BC22800E0BBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37B4A9971C6BC22800E0BBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37B4A9991C6BC22800E0BBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ARView Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreyrebrik.ARView-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37B4A99A1C6BC22800E0BBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ARView Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreyrebrik.ARView-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37B4A97C1C6BC22800E0BBF9 /* Build configuration list for PBXProject "ARView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B4A9961C6BC22800E0BBF9 /* Debug */,
+				37B4A9971C6BC22800E0BBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B4A9981C6BC22800E0BBF9 /* Build configuration list for PBXNativeTarget "ARView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B4A9991C6BC22800E0BBF9 /* Debug */,
+				37B4A99A1C6BC22800E0BBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37B4A9791C6BC22800E0BBF9 /* Project object */;
+}
